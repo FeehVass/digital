@@ -1,0 +1,281 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+h2{
+    color: black;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+
+header{
+    background-color:rgba(255, 150, 58, 0.582);
+}
+
+header div{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+header img{
+    width: 8em;
+    height: 5em;
+    padding: 0;
+    float: left;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color: rgb(255, 105, 36);
+    font-weight: bold;
+}
+
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    border-bottom: 0.2em solid black;
+    border-top: 0.2em solid black;
+}
+
+#produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    border-bottom: 0.2em solid black;
+}
+
+#li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+#li li{
+    padding-bottom: 1em;
+    padding-left: 5em;
+}
+
+#orcamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 2em;
+    border-bottom: 0.2em solid black;
+}
+
+#orcamentos label{
+    font-size: 1.3em;
+}
+
+#orcamentos select, input{
+    width: 50em;
+    font-size: 1em;
+}
+
+.geral{
+    border: none;
+    padding: 1.5em;
+}
+
+.vendedor, .empresa, .endereco, .email, .telefone, .fax{
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.relacione textarea{
+    width: 70em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    border-bottom: 0.2em solid black;
+}
+
+#contato img{
+    width: 10em;
+    height: 8em;
+    padding-bottom: 1em;
+}
+
+#contato a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+#contato a:hover{
+    color: rgb(255, 105, 36);
+    font-weight: bold;
+}
+
+#contato h3{
+    padding-top: 2em;
+}
+
+.emails{
+    display: flex;
+    align-items: inherit;
+}
+
+#firma, #adri, #ed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+}
+
+footer{
+    background-color: black;
+}
+
+
+.termos{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.termos > li:hover{
+    color: rgb(255, 105, 36);
+}
+
+.termos li{
+    list-style: none;
+    align-items: center;
+    padding: 1em;
+    color: #faf8f8;
+}
+
+footer p{
+    text-align: center;
+    color: #faf8f8;
+}
+
+.itens {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itens div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 988px){
+    h1{
+        font-size: 1.1em;
+    }
+    
+    h2{
+        color: black;
+        font-size: 1em;
+        font-weight: normal;
+    }
+    
+    li{
+        font-size: 0.8em;
+    }
+
+    #orcamentos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        padding: 2em;
+        border-bottom: 0.2em solid black;
+    }
+    
+    #orcamentos label{
+        font-size: 1em;
+    }
+    
+    #orcamentos select, input{
+        width: 20em;
+        font-size: 1em;
+    }
+    
+    .geral{
+        border: none;
+        padding: 1.5em;
+    }
+    
+    .vendedor, .empresa, .endereco, .email, .telefone, .fax{
+        padding-bottom: 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .relacione textarea{
+        width: 30em;
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #produtos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2em;
+        border-bottom: 0.2em solid black;
+    }
+    
+    #li{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    
+    #li li{
+        padding-bottom: 1em;
+        padding-left: 4em;
+    }
+
+
+}
